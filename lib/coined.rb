@@ -1,5 +1,5 @@
-require "coined/version"
+require 'coined/coin'
+require 'coined/version'
 
 module Coined
-  # Your code goes here...
 end
