@@ -7,7 +7,7 @@ module Coined
       GOLD_VALUE = 1.0
 
       def self.value(coin)
-        (GOLD_VALUE / coin::GOLD_VALUE).round(3)
+        (BigDecimal.new(GOLD_VALUE.to_s).div(BigDecimal.new(coin::GOLD_VALUE.to_s), 3)).to_f
       end
     end
   end

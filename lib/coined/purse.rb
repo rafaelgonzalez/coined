@@ -31,8 +31,8 @@ module Coined
 
     def value(coin_type)
       coins.map do |coin|
-        coin.value(coin_type)
-      end.inject(&:+)
+        BigDecimal.new(coin.value(coin_type).to_s)
+      end.inject(&:+).to_f
     end
   end
 end
