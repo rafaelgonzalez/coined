@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['rafaelgonzalez@users.noreply.github.com']
   spec.summary       = 'A gem that keeps your coins in a purse'
   spec.description   = 'A gem that keeps your coins in a purse'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/rafaelgonzalez/coined'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
