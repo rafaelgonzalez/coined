@@ -1,0 +1,9 @@
+# Custom rules
+
+Metrics/LineLength:
+  Max: 120
+
+# Disabled cops
+
+Style/Documentation:
+  Enabled: false
